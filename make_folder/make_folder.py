@@ -4,7 +4,7 @@ import shutil
 
 STATS_FILE = 'course_downloads.json'
 
-dest1 = os.path.join('..', 'bookShelf', STATS_FILE)
+dest1 = os.path.join('..', 'citadel', STATS_FILE)
 if not (os.path.exists(dest1) and os.path.isfile(dest1)):
     shutil.copy(STATS_FILE, dest1)
 

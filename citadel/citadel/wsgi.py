@@ -1,5 +1,5 @@
 """
-WSGI config for bookShelf project.
+WSGI config for citadel project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,7 +11,7 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "bookShelf.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "citadel.settings")
 
 from rednoise import DjangoRedNoise
 

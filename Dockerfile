@@ -31,7 +31,7 @@ RUN pip install -U pip
 RUN pip install -Ur requirements.txt
 WORKDIR ./django-rednoise-master/
 RUN python setup.py install
-WORKDIR /code/bookShelf
+WORKDIR /code/citadel
 
 # Used in wait-for-postgres.sh to connect to PostgreSQL
 # Needs to be updated, repeats in docker-compose

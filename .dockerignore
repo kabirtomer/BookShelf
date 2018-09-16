@@ -110,7 +110,7 @@ make_folder/DATA
 */database.json
 */.vscode/
 */.idea/
-*/bookShelf/course_downloads.json
-*/bookShelf/task_file.json
+*/citadel/course_downloads.json
+*/citadel/task_file.json
 */Citadel.md
 */things_left.txt

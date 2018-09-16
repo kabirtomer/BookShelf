@@ -9,8 +9,8 @@ services:
       - "internal"
   web:
     build: .
-    working_dir: /code/bookShelf
-    image: "devclubiitd/bookshelf:0.1"
+    working_dir: /code/citadel
+    image: "devclubiitd/citadel:0.1"
     command: ./docker_entry_point.sh
     volumes:
       - citadel_media:/code/media

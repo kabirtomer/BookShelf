@@ -102,7 +102,6 @@ ENV/
 # mypy
 .mypy_cache/
 
-.gitsecret
 .env
 staticfiles/
 media/
@@ -110,6 +109,8 @@ database.txt
 database.json
 .vscode/
 .idea/
-bookShelf/course_downloads.json
-bookShelf/task_file.json
+citadel/course_downloads.json
+citadel/task_file.json
 Citadel.md
+.gitsecret/keys/random_seed
+citadel/citadel_superuser.sh

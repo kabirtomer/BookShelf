@@ -14,7 +14,7 @@ python manage.py collectstatic --noinput
 #move to .env
 ./citadel_superuser.sh
 echo "Starting WEB Server"
-gunicorn bookShelf.wsgi:application --bind 0.0.0.0:$PORT --workers 3
+gunicorn citadel.wsgi:application --bind 0.0.0.0:$PORT --workers 3
 
 echo "Script complete"
 

@@ -1,4 +1,4 @@
-# Bookshelf
+# citadel
 
 
 ## What is it all about?
@@ -30,12 +30,12 @@ profs.json --> File that maps uids of Profs to their Names
 
 ### Installing
 
-Deploying bookShelf is fairly simple. Just issue the following commands on a linux machine
+Deploying citadel is fairly simple. Just issue the following commands on a linux machine
 You need crontab installed at your system for the required cronjobs to work
 
 ```
-git clone https://github.com/devclub-iitd/bookShelf.git
-cd bookShelf
+git clone https://github.com/devclub-iitd/citadel.git
+cd citadel
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
@@ -47,7 +47,7 @@ cd make_folder
 python make_folder.py
 cp -r DATA/* ../media/database/
 cp -r DATA/* ../media/bulk/
-cd ../bookShelf
+cd ../citadel
 python manage.py migrate
 python manage.py createsuperuser (Create a super user by following the instructions)
 python manage.py crontab add
@@ -60,9 +60,9 @@ deactivate
 You can run the code using the command:
 
 ```
-cd bookShelf
+cd citadel
 source venv/bin/activate
-cd bookShelf
+cd citadel
 python manage.py runserver
 ``` 
 
