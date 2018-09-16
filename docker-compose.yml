@@ -28,7 +28,7 @@ services:
       - "internal"
     environment:
       - PORT=7000
-      - SECRET_KEY=changemeinprod
+      - SECRET_KEY=${SECRET_KEY}
       - DATABASE_URL=postgres://postgres:postgres@db/postgres
       - VIRTUAL_HOST
     depends_on:
